@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    font-size: 16px;
+    padding: 5px;
+    width: 100%;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column; /* Stacks rows vertically */
+    gap: 10px; /* Space between rows */
+    align-items: center; /* Center rows horizontally */
+}
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of items in the row */
+    justify-content: center; /* Centers buttons in the row */
+    gap: 10px; /* Space between buttons */
+}
+
+button.syl {
+    font-size: 20px;
+    width: 50px; /* Square button width */
+    height: 50px; /* Square button height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+button.syl:hover {
+    background-color: #ddd;
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korean Numbers Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="container">
+            <!-- Title and Description -->
+            <div>
+                <h1>Korean Numbers Practice</h1>
+            </div>
+
+            <!-- Mode Selection -->
+            <div>
+                <label for="mode">Select Mode:</label>
+                <select id="mode">
+                    <option value="sino">Sino-Korean</option>
+                    <option value="pure">Pure Korean</option>
+                </select>
+            </div>
+
+            <!-- Question Display -->
+            <div>
+                <h2 id="question"></h2>
+            </div>
+
+            <!-- Input and Button -->
+            <div>
+                <input type="text" id="answer" placeholder="Type your answer...">
+                <button id="submit">Check</button>
+            </div>
+
+            <!-- Feedback Message -->
+            <p id="feedback"></p>
+        </div>
+    </div>
+
+    <!-- Buttons for Korean number syllables -->
+    <div id="buttons">
+        <div class="button-row">
+            <button class="syl" data-value="일">일</button>
+            <button class="syl" data-value="이">이</button>
+            <button class="syl" data-value="삼">삼</button>
+            <button class="syl" data-value="사">사</button>
+            <button class="syl" data-value="오">오</button>
+            <button class="syl" data-value="육">육</button>
+            <button class="syl" data-value="칠">칠</button>
+            <button class="syl" data-value="팔">팔</button>
+            <button class="syl" data-value="구">구</button>
+        </div>
+        <div class="button-row">
+            <button class="syl" data-value="십">십</button>
+            <button class="syl" data-value="천">천</button>
+            <button class="syl" data-value="만">만</button>
+            <button class="syl" data-value="억">억</button>
+        </div>
+    </div>
+
+
+
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
